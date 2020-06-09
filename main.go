@@ -25,10 +25,7 @@ func main() {
 		},
 	}
 
-	// convert jim into a memory address and save
-	jimPointer := &jim
-	// run updateName on the memory address of jim
-	jimPointer.updateName("Jimminy")
+	jim.updateName("Jimminy")
 	jim.print()
 }
 
